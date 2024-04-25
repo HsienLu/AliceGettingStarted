@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+.starting-guide-title{
+    @apply text-3xl leading-loose mb-4;
+}
+.starting-guide-list-text{
+    @apply list-inside text-xl mb-4
+}
+
+@tailwind utilities;
