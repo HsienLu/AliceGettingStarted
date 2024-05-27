@@ -2,7 +2,15 @@ import  { useState } from 'react';
 import propTypes from "prop-types";
 const Spinner = () => {
     return (
-      <div className="mx-auto border-4 border-gray-200 border-t-blue-500 rounded-full w-10 h-10 animate-spin"></div>
+<div style={{
+  margin: 'auto',
+  border: '5px solid #03a9f4', 
+  borderTop: '5px solid #BBE2EC', 
+  borderRadius: '50%',
+  width: '40px',
+  height: '40px',
+  animation: 'spin 1s linear infinite'
+}}></div>
     );
   }
 function ImageWithPlaceholder({ src, alt }) {
