@@ -9,6 +9,10 @@ import TeacherToolsAssessment from './component/TeacherToolsAssessment'
 import ToTheTop from './component/ToTheTop'
 import { Routes,Route } from 'react-router-dom'
 import Header from './component/Header'
+import CourseImplementation from './component/CourseImplementation'
+import CoursePresentation from './component/CoursePresentation'
+import GradingToolIntroduction from './component/GradingToolIntroduction'
+import AddAliceCourseContent from './component/AddAliceCourseContent'
 function App() {
   return (
     <>
@@ -23,6 +27,10 @@ function App() {
           <Route path='set-student-test-account' element={<StartingGuideSetStudentTestAccount ></StartingGuideSetStudentTestAccount>} />
           <Route path='TeacherToolsClassShow' element={<TeacherToolsClassShow></TeacherToolsClassShow>} />
           <Route path='TeacherToolsAssessment' element={<TeacherToolsAssessment></TeacherToolsAssessment>} />
+          <Route path='course-implementation' element={<CourseImplementation />} />
+          <Route path='course-presentation' element={<CoursePresentation />} />
+          <Route path='grading-tool-introduction' element={<GradingToolIntroduction />} />
+          <Route path='add-alice-course-content' element={<AddAliceCourseContent />} />
         </Routes>
       </div>
         <ToTheTop></ToTheTop>
