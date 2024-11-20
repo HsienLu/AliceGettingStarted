@@ -13,7 +13,16 @@ const steps = [
 function StartingGuideRegister(){
 return(<>
     <div className='basis-2/3'>
-        <h2 className="starting-guide-title">註冊</h2>
+        <h2 className="starting-guide-title">註冊<a className="text-xl text-blue-600" href="https://www.youtube.com/watch?v=ayQilp4SHXo"> (註冊影片教學)</a></h2>
+        <div className="relative pb-[56.25%] h-0 overflow-hidden max-w-full bg-black mb-8">
+    <iframe
+        className="absolute top-0 left-0 w-full h-full border-0 "
+        src="https://www.youtube.com/embed/ayQilp4SHXo"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen>
+    </iframe>
+</div>
         {
             steps.map((v,i)=>{
                 return(
