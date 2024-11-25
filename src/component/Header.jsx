@@ -1,6 +1,6 @@
 import logo from "../assets/logo.png";
 import { useState } from "react";
-const contextPath = "https://alice.ntust.edu.tw/";
+const contextPath = "https://alice.ntust.edu.tw";
 export function DropDown() {
     const [isOpen, setIsOpen] = useState(false);
   return (
@@ -10,7 +10,7 @@ export function DropDown() {
     </button>
     {isOpen && (
         <div className="dropdown-content absolute block bg-white min-w-[160px] shadow-md z-50">
-            <a href={`${contextPath}/wise-advantage.html`} className="block px-4 py-3 text-black hover:bg-gray-100">
+            <a href={`${contextPath}/pages/wise-advantage.html`} className="block px-4 py-3 text-black hover:bg-gray-100">
                 學習優勢
             </a>
             <a href={`${contextPath}/pages/features.html`} className="block px-4 py-3 text-black hover:bg-gray-100">
