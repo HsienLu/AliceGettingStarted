@@ -19,6 +19,16 @@ const steps = [
 function StartingGuideSetStudentTestAccount(){
 return(<>
     <div className='basis-2/3'>
+    <div className="relative pb-[56.25%] h-0 overflow-hidden max-w-full bg-black mb-8">
+    <iframe
+        className="absolute top-0 left-0 w-full h-full border-0 "
+        src="https://www.youtube.com/embed/TjmVMUkcymU?si=0ZEWF9fowI29qp3f"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen>
+    </iframe>
+</div>
+
         <h2 className="starting-guide-title">設定一組學生測試帳號</h2>
         {
             steps.map((v,i)=>{

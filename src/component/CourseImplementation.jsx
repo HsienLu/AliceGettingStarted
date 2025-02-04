@@ -21,18 +21,28 @@ import CourseImplementationImg18 from '../assets/CourseImplementation/CourseImpl
 
 import ContentCard from './ContentCard';
 
-function CourseImplementation(){
-    const images =[CourseImplementationImg1,CourseImplementationImg2,CourseImplementationImg3,CourseImplementationImg4,CourseImplementationImg5,CourseImplementationImg6,CourseImplementationImg7,CourseImplementationImg8,CourseImplementationImg9,CourseImplementationImg10,CourseImplementationImg11,CourseImplementationImg12,CourseImplementationImg13,CourseImplementationImg14,CourseImplementationImg15,CourseImplementationImg16,CourseImplementationImg17,CourseImplementationImg18];
-    return(
+function CourseImplementation() {
+    const images = [CourseImplementationImg1, CourseImplementationImg2, CourseImplementationImg3, CourseImplementationImg4, CourseImplementationImg5, CourseImplementationImg6, CourseImplementationImg7, CourseImplementationImg8, CourseImplementationImg9, CourseImplementationImg10, CourseImplementationImg11, CourseImplementationImg12, CourseImplementationImg13, CourseImplementationImg14, CourseImplementationImg15, CourseImplementationImg16, CourseImplementationImg17, CourseImplementationImg18];
+    return (
         <>
-        <div className="basis-2/3">
-        {
-            images.map((v,i)=>{
+            <div className="basis-2/3">
+                {/* https://youtu.be/a-Cf6UbfmOo?si=fcaOgLPhFM7u-wIw */}
+                <div className="relative pb-[56.25%] h-0 overflow-hidden max-w-full bg-black mb-8">
+                    <iframe
+                        className="absolute top-0 left-0 w-full h-full border-0 "
+                        src="https://www.youtube.com/embed/a-Cf6UbfmOo?si=MphQ6nO65BRZPjfu"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                    </iframe>
+                </div>
+                {
+                    images.map((v, i) => {
 
-             return(   <ContentCard key={i} imgSrc={v}></ContentCard>)
-            })
-        }
-        </div>
+                        return (<ContentCard key={i} imgSrc={v}></ContentCard>)
+                    })
+                }
+            </div>
         </>
     )
 }

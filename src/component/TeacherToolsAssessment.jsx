@@ -20,6 +20,45 @@ function TeacherToolsAssessment(){
         <div className="basis-2/3">
 
                 <h2 className="starting-guide-title">ALICE課程評量工具</h2>
+                <div className="relative pb-[56.25%] h-0 overflow-hidden max-w-full bg-black mb-8">
+                    <iframe
+                        className="absolute top-0 left-0 w-full h-full border-0 "
+                        src="https://www.youtube.com/embed/5V8qui4LsbQ?si=IqNTisO2twJo5VMG"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                    </iframe>
+                </div>
+                
+                <div className="relative pb-[56.25%] h-0 overflow-hidden max-w-full bg-black mb-8">
+                    <iframe
+                        className="absolute top-0 left-0 w-full h-full border-0 "
+                        src="https://www.youtube.com/embed/UrICAIAYa_0?si=8rK9aJEx-MRA-IAy"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                    </iframe>
+                </div>
+                {/* https://www.youtube.com/embed/HJdMT2kPy_s?si=xryWRGmmTA_0s0uN */}
+                <div className="relative pb-[56.25%] h-0 overflow-hidden max-w-full bg-black mb-8">
+                    <iframe
+                        className="absolute top-0 left-0 w-full h-full border-0 "
+                        src="https://www.youtube.com/embed/HJdMT2kPy_s?si=xryWRGmmTA_0s0uN"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                    </iframe>
+                </div>
+                {/* https://www.youtube.com/embed/iKJzA_itFCs?si=XXtNe5ZomZEvCLri */}
+                <div className="relative pb-[56.25%] h-0 overflow-hidden max-w-full bg-black mb-8">
+                    <iframe
+                        className="absolute top-0 left-0 w-full h-full border-0 "
+                        src="https://www.youtube.com/embed/iKJzA_itFCs?si=XXtNe5ZomZEvCLri"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                    </iframe>
+                </div>
         {
             steps.map((v,i)=>{
                 return(
